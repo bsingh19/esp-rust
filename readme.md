@@ -95,3 +95,4 @@ espflash serial-monitor COM15
 5. Rust on ESP32 - [here](https://kerkour.com/rust-on-esp32)
 6. Libraries, crates and examples for using Rust on Espressif SoC's [esp-rs](https://github.com/esp-rs)
 7. Awesome ESP Rust [here](https://github.com/esp-rs/awesome-esp-rust)
+8. Embedded Rust on Espressif [ESPRESSIF](https://esp-rs.github.io/espressif-trainings/01_intro.html)
