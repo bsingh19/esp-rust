@@ -1,11 +1,19 @@
 # RUST on ESP32 
 
+Follow this book for more information - [Book](https://esp-rs.github.io/book/introduction.html)
 
 # Setup on Windows 11 (tested)
 ## Step 1 - rustup
 1. Download and install rustup [Download](https://rustup.rs/)
 2. Make sure you follow the steps
 3. It will instal Visual Studio
+
+Install following tools
+```shell
+$ cargo install cargo-generate
+$ cargo install ldproxy
+$ cargo install cargo-espflash
+```
 
 ## Step 2 - espup
 Follow the RISC-V and Xtensa targets [here](https://esp-rs.github.io/book/installation/index.html#risc-v-and-xtensa-targets)
@@ -79,3 +87,11 @@ espflash COM15 .\target\xtensa-esp32-none-elf\debug\app_folder
 espflash serial-monitor COM15
 ```
 
+# References
+1. Connect ESP32 to WiFi with Rust - [here](https://medium.com/@rajeshpachaikani/connect-esp32-to-wifi-with-rust-7d12532f539b)
+2. Rust on ESP-IDF "Hello, World" template - [here](https://github.com/esp-rs/esp-idf-template)
+3. Rust on ESP-IDF "Hello, World" with PlatformIO - [here](https://github.com/esp-rs/esp-idf-template/blob/master/README-pio.md)
+4. Rust - [here](https://www.rust-lang.org/)
+5. Rust on ESP32 - [here](https://kerkour.com/rust-on-esp32)
+6. Libraries, crates and examples for using Rust on Espressif SoC's [esp-rs](https://github.com/esp-rs)
+7. Awesome ESP Rust [here](https://github.com/esp-rs/awesome-esp-rust)
