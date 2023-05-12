@@ -9,7 +9,7 @@
 
 ## Step 2 - espup
 Follow the RISC-V and Xtensa targets [here](https://esp-rs.github.io/book/installation/index.html#risc-v-and-xtensa-targets)
-1. Install cargo first 
+1. cargo will be installed in last step, make sure you add  *C:\Users\USER_NAME\.cargo\bin* in system **PATH**.
 2. Install espup
 ```shell 
 cargo install espup
@@ -22,11 +22,6 @@ espup install
 ```shell
 . \path\export-esp.ps1
 ```
-
-After running espup install
-- no_std (bare-metal) applications should work out of the box
-
-Read **What espup Installs** [here](https://esp-rs.github.io/book/installation/index.html#risc-v-and-xtensa-targets)
 
 ## Step 3 - Tools
 1. cargo-espflash 
